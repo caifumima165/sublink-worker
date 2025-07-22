@@ -204,7 +204,7 @@ API 在出现问题时将返回适当的 HTTP 状态码和错误消息:
 
 2. 生成带有置顶自定义规则的 Clash 配置:
    ```
-   /clash?config=vless%3A%2F%2Fexample&customRules=%5B%7B%22site%22%3A%22example.com%22%2C%22ip%22%3A%22192.168.1.1%22%2C%22domain_suffix%22%3A%22.com%22%2C%22domain_keyword%22%3A%22Mijia%20Cloud%22%2C%22ip_cidr%22%3A%2210.0.0.0%2F8%22%2C%22name%22%3A%22MyCustomRule%22%7D%5D&pin=true
+   /taiyang?config=vless%3A%2F%2Fexample&customRules=%5B%7B%22site%22%3A%22example.com%22%2C%22ip%22%3A%22192.168.1.1%22%2C%22domain_suffix%22%3A%22.com%22%2C%22domain_keyword%22%3A%22Mijia%20Cloud%22%2C%22ip_cidr%22%3A%2210.0.0.0%2F8%22%2C%22name%22%3A%22MyCustomRule%22%7D%5D&pin=true
    ```
 
 3. 缩短 URL:
